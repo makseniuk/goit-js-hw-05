@@ -44,6 +44,6 @@ const everyUsers = [
   }
 ];
 
-console.log(getTotalBalanceByGender(allUsers, "male"));
+console.log(getTotalBalanceByGender(everyUsers, "male"));
 
-console.log(getTotalBalanceByGender(allUsers, "female"));
+console.log(getTotalBalanceByGender(everyUsers, "female"));
